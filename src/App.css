@@ -1,0 +1,57 @@
+ body{
+  padding: 40px;
+  background-color: rgb(221, 221, 160);
+  box-sizing: border-box;
+ }
+ .counter{
+  border: 2px solid black;
+  background: conic-gradient(white,black,red,violet,green,orange,white,pink);
+  margin: 0px;
+  padding: 0px;
+  
+ }
+ .counter-value{
+  background-color: white;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  border-radius: 50% ;
+  font-size: 30px;
+ }
+ .counter-buttons{
+    margin: 0px;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    color: green;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    align-items: center;
+
+ }
+  .counter-increment{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid green;
+  border-radius: 50%;
+  background-color: aliceblue;
+  color: red;
+  
+ } 
+ .counter-decrement{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid green;
+  border-radius: 50%;
+  background-color: aliceblue;
+  color: red;
+  
+ } 
+ 
